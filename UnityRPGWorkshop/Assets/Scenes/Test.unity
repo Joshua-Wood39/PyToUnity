@@ -202,6 +202,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &197176618 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1871995184, guid: aca191cad31bc4c34960f8a54ec77e10,
+    type: 3}
+  m_PrefabInstance: {fileID: 3751373529564627926}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa0684fd38d234f5d8c95711f88e1ee8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &291058008
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +315,7 @@ MonoBehaviour:
   theRB: {fileID: 291058012}
   moveSpeed: 7
   myAnim: {fileID: 291058014}
+  areaTransitionName: 
 --- !u!50 &291058012
 Rigidbody2D:
   serializedVersion: 4
@@ -506,6 +519,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1871995183, guid: aca191cad31bc4c34960f8a54ec77e10, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871995184, guid: aca191cad31bc4c34960f8a54ec77e10, type: 3}
+      propertyPath: transitionName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3751373528439612770, guid: aca191cad31bc4c34960f8a54ec77e10,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -561,6 +582,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3751373528439612771, guid: aca191cad31bc4c34960f8a54ec77e10,
+        type: 3}
+      propertyPath: areaTransitionName
+      value: Countryside-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3751373528439612771, guid: aca191cad31bc4c34960f8a54ec77e10,
+        type: 3}
+      propertyPath: areaToLoad
+      value: Test2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3751373528439612771, guid: aca191cad31bc4c34960f8a54ec77e10,
+        type: 3}
+      propertyPath: theEntrance
+      value: 
+      objectReference: {fileID: 197176618}
     - target: {fileID: 3751373528439612772, guid: aca191cad31bc4c34960f8a54ec77e10,
         type: 3}
       propertyPath: m_Name

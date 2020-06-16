@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour {
 
     public static PlayerController instance;
 
+    public string areaTransitionName; // The exit we just used
+
     // Start is called before the first frame update
     void Start() {
         if(instance == null) {
